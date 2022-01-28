@@ -21968,7 +21968,7 @@ var render = function () {
         "b-card",
         [
           _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-            _vm._v("\n      Main Data -  Agama\n      "),
+            _vm._v("\n      Main Data -  Pangkat/Golongan\n      "),
             _c(
               "div",
               {

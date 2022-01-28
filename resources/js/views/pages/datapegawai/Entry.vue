@@ -3,7 +3,7 @@
     <div class="mt-4">
         <b-card>
             <div slot="header">
-                Entry Data Agama
+                Entry Data Data Pegawai
                 <div class="card-header-actions" style="height: 21px;">
                     <router-link :to="'/data-pegawai'" class="btn btn-sm btn-warning text-white"><i class="fa fa-arrow-left" /> Kembali</router-link>
                 </div>

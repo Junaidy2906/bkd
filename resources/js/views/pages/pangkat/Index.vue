@@ -2,7 +2,7 @@
 <div class="animated fadeIn">
   <b-card>
     <div slot="header">
-      Main Data -  Agama
+      Main Data -  Pangkat/Golongan
       <div class="card-header-actions" style="height: 21px;">
         <b-button variant="success" size="sm"> <i class="fa fa-refresh" @click="loadPostsData" /></b-button>
         <router-link :to="'/pangkat-golongan/add'" class="btn btn-sm btn-primary"><i class="fa fa-edit" /> Entry Data</router-link>

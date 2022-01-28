@@ -3,9 +3,9 @@
     <div class="mt-4">
         <b-card>
             <div slot="header">
-                Entry Data Agama
+                Entry Data Pangkat/Golongan
                 <div class="card-header-actions" style="height: 21px;">
-                    <router-link :to="'/panel/main-data/agama'" class="btn btn-sm btn-warning text-white"><i class="fa fa-arrow-left" /> Kembali</router-link>
+                    <router-link :to="'/panel/pangkat-golongan'" class="btn btn-sm btn-warning text-white"><i class="fa fa-arrow-left" /> Kembali</router-link>
                 </div>
             </div>
             <form @submit.prevent="submit">

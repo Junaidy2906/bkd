@@ -361,7 +361,9 @@ var render = function () {
       [
         _c("b-card", [
           _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-            _vm._v("\n                Entry Data Agama\n                "),
+            _vm._v(
+              "\n                Entry Data Data Pegawai\n                "
+            ),
             _c(
               "div",
               {
