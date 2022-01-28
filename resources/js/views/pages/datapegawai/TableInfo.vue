@@ -39,9 +39,14 @@
         <span v-html="row.value"></span>
       </template>
 
+
+      <template slot="pangkatgolongan" slot-scope="row">
+        <span v-html="row.item.pangkat_golongan.nama + ': '+row.item.pangkat_golongan.keterangan"></span>
+      </template>
+
       <template slot="actions" slot-scope="row">
         <!-- <a href="http://" class="btn btn-sm btn-success mr-1"><i class="fa fa-edit"></i></a> -->
-        <router-link :to="'/panel/main-data/agama/'+row.item.id" class="btn btn-sm btn-success">
+        <router-link :to="'/data-pegawai/'+row.item.id" class="btn btn-sm btn-success">
           <i class="fa fa-edit"></i>
         </router-link>
         <b-button variant="danger" @click="deleteData(row.item.id)" class="ml-1" size="sm">

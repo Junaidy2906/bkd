@@ -97,7 +97,7 @@ export default {
                         // } else if (data.hash_role[0].name == 'Antrian') {
                         //   self.$router.push('/antrian');
                         // } else {
-                          self.$router.push('/dashboard');
+                          self.$router.push('/data-pegawai');
                         // }
                         // window.location.href = '/dashboard';
                     },

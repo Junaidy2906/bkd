@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\DataPegawaiController;
+use App\Http\Controllers\PangkatGolonganController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -30,6 +32,17 @@ Route::group(
          * profile
          */
         Route::get('/profile', [AuthController::class, 'profile']);
+
+        /**
+         * pangkat golongan
+         */
+        Route::get('pangkat-golongan/getoption', [PangkatGolonganController::class, 'getoption']);
+         Route::apiResource('/pangkat-golongan', PangkatGolonganController::class);
+
+         /**
+          * Data Pegawai
+          */
+         Route::apiResource('/data-pegawai', DataPegawaiController::class);
     }
 );
 

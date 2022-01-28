@@ -5,10 +5,10 @@
       Main Data -  Agama
       <div class="card-header-actions" style="height: 21px;">
         <b-button variant="success" size="sm"> <i class="fa fa-refresh" @click="loadPostsData" /></b-button>
-        <router-link :to="'/panel/main-data/agama/add'" class="btn btn-sm btn-primary"><i class="fa fa-edit" /> Entry Data</router-link>
+        <router-link :to="'/data-pegawai/add'" class="btn btn-sm btn-primary"><i class="fa fa-edit" /> Entry Data</router-link>
       </div>
     </div>
-    <app-datatable v-if="fields" :editUrl="'/panel/data-opd/'" :deleteData="deleteRow" :isBusy="isBusy" :items="items" :fields="fields" :meta="meta" @per_page="handlePerPage" @pagination="handlePagination" @search="handleSearch" @sort="handleSort" />
+    <app-datatable v-if="fields" :editUrl="'/data-pegawai/'" :deleteData="deleteRow" :isBusy="isBusy" :items="items" :fields="fields" :meta="meta" @per_page="handlePerPage" @pagination="handlePagination" @search="handleSearch" @sort="handleSort" />
     <div class="text-center" v-else>
       <b-spinner variant="success" label="Spinning"></b-spinner>
       <br>
@@ -40,15 +40,27 @@ export default {
                     key: 'nama',
                     label: 'Nama',
                     sortable: true
-                },
-                {
-                    key: 'aktif',
-                    label: 'Aktif',
-                    formatter: (value, key, item) => {
-                        return value == 'Y' ? '<i class="fa fa-eye text-success"></i>' : '<i class="fa fa-eye-slash text-danger"></i>'
-                    },
+                },{
+                    key: 'usia',
+                    label: 'Usia',
+                    sortable: true
+                },{
+                    key: 'jenis_kelamin',
+                    label: 'Jenis Kelamin',
+                    sortable: true
+                },{
+                    key: 'pangkatgolongan',
+                    label: 'Pangkat/Golongan',
                     sortable: true
                 },
+                // {
+                //     key: 'aktif',
+                //     label: 'Aktif',
+                //     formatter: (value, key, item) => {
+                //         return value == 'Y' ? '<i class="fa fa-eye text-success"></i>' : '<i class="fa fa-eye-slash text-danger"></i>'
+                //     },
+                //     sortable: true
+                // },
                 {
                     key: 'actions',
                     label: 'Actions'
@@ -97,7 +109,7 @@ export default {
                 },
             });
 
-            axios.delete('/api/agama/' + id).then((response) => {
+            axios.delete('/api/data-pegawai/' + id).then((response) => {
                 this.$swal({
                     title: 'Data Berhasil Dihapus',
                     icon: 'success',
@@ -123,7 +135,7 @@ export default {
             this.isBusy = true;
             let current_page = this.search == '' ? this.current_page : 1
             //LAKUKAN REQUEST KE API UNTUK MENGAMBIL DATA POSTINGAN
-            axios.get(`/api/agama`, {
+            axios.get(`/api/data-pegawai`, {
                     //KIRIMKAN PARAMETER BERUPA PAGE YANG SEDANG DILOAD, PENCARIAN, LOAD PERPAGE DAN SORTING.
                     params: {
                         page: current_page,

@@ -3479,15 +3479,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  items: [{
-    title: true,
-    name: "Main Menu",
-    class: "",
-    wrapper: {
-      element: "",
-      attributes: {}
-    }
-  }, // {
+  items: [// {
   //     name: "Dashboard",
   //     url: "/panel/dashboard",
   //     icon: "icon-speedometer",
@@ -3506,39 +3498,25 @@ __webpack_require__.r(__webpack_exports__);
       attributes: {}
     }
   }, {
-    name: "Main Data",
-    // url: "/panel/main-data",
-    icon: "icon-folder",
-    children: [{
-      name: "Agama",
-      url: "/panel/main-data/agama"
-    }, {
-      name: "Bank",
-      url: "/panel/main-data/bank"
-    }, {
-      name: "Jenis PTK",
-      url: "/panel/main-data/jenis-ptk"
-    }, {
-      name: "Lem. Pengangkatan",
-      url: "/panel/main-data/lembaga-pengangkatan"
-    }, {
-      name: "Pangkat/Golongan",
-      url: "/panel/main-data/pangkat-golongan"
-    }, {
-      name: "Status Pegawai",
-      url: "/panel/main-data/status-pegawai"
-    }, {
-      name: "Sumber Gaji",
-      url: "/panel/main-data/sumber-gaji"
-    }, {
-      name: "Tugas Tambahan",
-      url: "/panel/main-data/tugas-tambahan"
-    }]
+    name: "Data Pegawai",
+    url: "/data-pegawai",
+    icon: "icon-folder-alt"
   }, {
-    name: "Pengguna",
-    url: "/panel/pengguna",
-    icon: "icon-people"
+    name: "Pangkat/Golongan",
+    url: "/pangkat-golongan",
+    icon: "icon-folder-alt"
   } // {
+  //     name: "Main Data",
+  //     // url: "/panel/main-data",
+  //     icon: "icon-folder",
+  //     children: [
+  //         {
+  //             name: "Agama",
+  //             url: "/panel/main-data/agama",
+  //         },
+  //     ],
+  // },
+  // {
   //     name: "Icon",
   //     url: "/panel/icon",
   //     icon: "icon-people",

@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
         //   self.$router.push('/antrian');
         // } else {
 
-        self.$router.push('/dashboard'); // }
+        self.$router.push('/data-pegawai'); // }
         // window.location.href = '/dashboard';
       }, function (error) {
         // console.log(error.response);

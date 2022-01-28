@@ -2237,136 +2237,20 @@ var DefaultContainer = function DefaultContainer() {
 }; // Views
 
 
-var Dashboard = function Dashboard() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_Dashboard_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/Dashboard.vue */ "./resources/js/views/Dashboard.vue"));
+var DataPegawai = function DataPegawai() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_pages_datapegawai_Index_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/pages/datapegawai/Index */ "./resources/js/views/pages/datapegawai/Index.vue"));
 };
 
-var Colors = function Colors() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_theme_Colors_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/theme/Colors */ "./resources/js/views/theme/Colors.vue"));
+var DataPegawaiEntry = function DataPegawaiEntry() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_pages_datapegawai_Entry_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/pages/datapegawai/Entry */ "./resources/js/views/pages/datapegawai/Entry.vue"));
 };
 
-var Typography = function Typography() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_theme_Typography_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/theme/Typography */ "./resources/js/views/theme/Typography.vue"));
+var PangkatGolongan = function PangkatGolongan() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_pages_pangkat_Index_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/pages/pangkat/Index */ "./resources/js/views/pages/pangkat/Index.vue"));
 };
 
-var Charts = function Charts() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_Charts_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/Charts */ "./resources/js/views/Charts.vue"));
-};
-
-var Widgets = function Widgets() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_Widgets_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/Widgets */ "./resources/js/views/Widgets.vue"));
-}; // Views - Components
-
-
-var Cards = function Cards() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Cards_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Cards */ "./resources/js/views/base/Cards.vue"));
-};
-
-var Forms = function Forms() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Forms_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Forms */ "./resources/js/views/base/Forms.vue"));
-};
-
-var Switches = function Switches() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Switches_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Switches */ "./resources/js/views/base/Switches.vue"));
-};
-
-var Tables = function Tables() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Tables_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Tables */ "./resources/js/views/base/Tables.vue"));
-};
-
-var Tabs = function Tabs() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Tabs_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Tabs */ "./resources/js/views/base/Tabs.vue"));
-};
-
-var Breadcrumbs = function Breadcrumbs() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Breadcrumbs_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Breadcrumbs */ "./resources/js/views/base/Breadcrumbs.vue"));
-};
-
-var Carousels = function Carousels() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Carousels_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Carousels */ "./resources/js/views/base/Carousels.vue"));
-};
-
-var Collapses = function Collapses() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Collapses_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Collapses */ "./resources/js/views/base/Collapses.vue"));
-};
-
-var Jumbotrons = function Jumbotrons() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Jumbotrons_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Jumbotrons */ "./resources/js/views/base/Jumbotrons.vue"));
-};
-
-var ListGroups = function ListGroups() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_ListGroups_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/ListGroups */ "./resources/js/views/base/ListGroups.vue"));
-};
-
-var Navs = function Navs() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Navs_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Navs */ "./resources/js/views/base/Navs.vue"));
-};
-
-var Navbars = function Navbars() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Navbars_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Navbars */ "./resources/js/views/base/Navbars.vue"));
-};
-
-var Paginations = function Paginations() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Paginations_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Paginations */ "./resources/js/views/base/Paginations.vue"));
-};
-
-var Popovers = function Popovers() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Popovers_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Popovers */ "./resources/js/views/base/Popovers.vue"));
-};
-
-var ProgressBars = function ProgressBars() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_ProgressBars_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/ProgressBars */ "./resources/js/views/base/ProgressBars.vue"));
-};
-
-var Tooltips = function Tooltips() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_base_Tooltips_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/base/Tooltips */ "./resources/js/views/base/Tooltips.vue"));
-}; // Views - Buttons
-
-
-var StandardButtons = function StandardButtons() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_buttons_StandardButtons_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/buttons/StandardButtons */ "./resources/js/views/buttons/StandardButtons.vue"));
-};
-
-var ButtonGroups = function ButtonGroups() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_buttons_ButtonGroups_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/buttons/ButtonGroups */ "./resources/js/views/buttons/ButtonGroups.vue"));
-};
-
-var Dropdowns = function Dropdowns() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_buttons_Dropdowns_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/buttons/Dropdowns */ "./resources/js/views/buttons/Dropdowns.vue"));
-};
-
-var BrandButtons = function BrandButtons() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_buttons_BrandButtons_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/buttons/BrandButtons */ "./resources/js/views/buttons/BrandButtons.vue"));
-}; // Views - Icons
-
-
-var Flags = function Flags() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_icons_Flags_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/icons/Flags */ "./resources/js/views/icons/Flags.vue"));
-};
-
-var FontAwesome = function FontAwesome() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_icons_FontAwesome_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/icons/FontAwesome */ "./resources/js/views/icons/FontAwesome.vue"));
-};
-
-var SimpleLineIcons = function SimpleLineIcons() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_icons_SimpleLineIcons_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/icons/SimpleLineIcons */ "./resources/js/views/icons/SimpleLineIcons.vue"));
-};
-
-var CoreUIIcons = function CoreUIIcons() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_icons_CoreUIIcons_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/icons/CoreUIIcons */ "./resources/js/views/icons/CoreUIIcons.vue"));
-}; // Views - Notifications
-
-
-var Alerts = function Alerts() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_notifications_Alerts_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/notifications/Alerts */ "./resources/js/views/notifications/Alerts.vue"));
-};
-
-var Badges = function Badges() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_notifications_Badges_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/notifications/Badges */ "./resources/js/views/notifications/Badges.vue"));
-};
-
-var Modals = function Modals() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_notifications_Modals_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/notifications/Modals */ "./resources/js/views/notifications/Modals.vue"));
+var PangkatGolonganEntry = function PangkatGolonganEntry() {
+  return __webpack_require__.e(/*! import() */ "resources_js_views_pages_pangkat_Entry_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/pages/pangkat/Entry */ "./resources/js/views/pages/pangkat/Entry.vue"));
 }; // Views - Pages
 
 
@@ -2384,15 +2268,6 @@ var Login = function Login() {
 
 var Register = function Register() {
   return __webpack_require__.e(/*! import() */ "resources_js_views_pages_Register_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/pages/Register */ "./resources/js/views/pages/Register.vue"));
-}; // Users
-
-
-var Users = function Users() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_users_Users_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/users/Users */ "./resources/js/views/users/Users.vue"));
-};
-
-var User = function User() {
-  return __webpack_require__.e(/*! import() */ "resources_js_views_users_User_vue").then(__webpack_require__.bind(__webpack_require__, /*! @/views/users/User */ "./resources/js/views/users/User.vue"));
 };
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -2410,209 +2285,47 @@ vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_router__WEBPACK_IMPORTED_MOD
     redirect: '/pages/login',
     name: 'Home',
     component: DefaultContainer,
-    children: [{
-      path: 'dashboard',
-      name: 'Dashboard',
+    children: [// {
+    //   path: 'dashboard',
+    //   name: 'Dashboard',
+    //   meta: {
+    //       title: "Dashboard",
+    //       auth: true,
+    //   },
+    //   component: Dashboard
+    // },
+    {
+      path: 'data-pegawai',
+      name: 'Data Pegawai',
       meta: {
-        title: "Dashboard",
+        title: "Data Pegawai",
         auth: true
       },
-      component: Dashboard
+      component: DataPegawai
     }, {
-      path: 'theme',
-      redirect: '/theme/colors',
-      name: 'Theme',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
-      },
-      children: [{
-        path: 'colors',
-        name: 'Colors',
-        component: Colors
-      }, {
-        path: 'typography',
-        name: 'Typography',
-        component: Typography
-      }]
-    }, {
-      path: 'charts',
-      name: 'Charts',
-      component: Charts
-    }, {
-      path: 'widgets',
-      name: 'Widgets',
-      component: Widgets
-    }, {
-      path: 'users',
+      path: 'data-pegawai/:act',
+      name: 'Entry Data Pegawai',
       meta: {
-        label: 'Users'
+        title: "Entry Data Pegawai",
+        auth: true
       },
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
-      },
-      children: [{
-        path: '',
-        component: Users
-      }, {
-        path: ':id',
-        meta: {
-          label: 'User Details'
-        },
-        name: 'User',
-        component: User
-      }]
+      component: DataPegawaiEntry
     }, {
-      path: 'base',
-      redirect: '/base/cards',
-      name: 'Base',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
+      path: 'pangkat-golongan',
+      name: 'Pangkat Golongan',
+      meta: {
+        title: "Pangkat Golongan",
+        auth: true
       },
-      children: [{
-        path: 'cards',
-        name: 'Cards',
-        component: Cards
-      }, {
-        path: 'forms',
-        name: 'Forms',
-        component: Forms
-      }, {
-        path: 'switches',
-        name: 'Switches',
-        component: Switches
-      }, {
-        path: 'tables',
-        name: 'Tables',
-        component: Tables
-      }, {
-        path: 'tabs',
-        name: 'Tabs',
-        component: Tabs
-      }, {
-        path: 'breadcrumbs',
-        name: 'Breadcrumbs',
-        component: Breadcrumbs
-      }, {
-        path: 'carousels',
-        name: 'Carousels',
-        component: Carousels
-      }, {
-        path: 'collapses',
-        name: 'Collapses',
-        component: Collapses
-      }, {
-        path: 'jumbotrons',
-        name: 'Jumbotrons',
-        component: Jumbotrons
-      }, {
-        path: 'list-groups',
-        name: 'List Groups',
-        component: ListGroups
-      }, {
-        path: 'navs',
-        name: 'Navs',
-        component: Navs
-      }, {
-        path: 'navbars',
-        name: 'Navbars',
-        component: Navbars
-      }, {
-        path: 'paginations',
-        name: 'Paginations',
-        component: Paginations
-      }, {
-        path: 'popovers',
-        name: 'Popovers',
-        component: Popovers
-      }, {
-        path: 'progress-bars',
-        name: 'Progress Bars',
-        component: ProgressBars
-      }, {
-        path: 'tooltips',
-        name: 'Tooltips',
-        component: Tooltips
-      }]
+      component: PangkatGolongan
     }, {
-      path: 'buttons',
-      redirect: '/buttons/standard-buttons',
-      name: 'Buttons',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
+      path: 'pangkat-golongan/:act',
+      name: 'Entry Pangkat Golongan',
+      meta: {
+        title: "Entry Pangkat Golongan",
+        auth: true
       },
-      children: [{
-        path: 'standard-buttons',
-        name: 'Standard Buttons',
-        component: StandardButtons
-      }, {
-        path: 'button-groups',
-        name: 'Button Groups',
-        component: ButtonGroups
-      }, {
-        path: 'dropdowns',
-        name: 'Dropdowns',
-        component: Dropdowns
-      }, {
-        path: 'brand-buttons',
-        name: 'Brand Buttons',
-        component: BrandButtons
-      }]
-    }, {
-      path: 'icons',
-      redirect: '/icons/font-awesome',
-      name: 'Icons',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
-      },
-      children: [{
-        path: 'coreui-icons',
-        name: 'CoreUI Icons',
-        component: CoreUIIcons
-      }, {
-        path: 'flags',
-        name: 'Flags',
-        component: Flags
-      }, {
-        path: 'font-awesome',
-        name: 'Font Awesome',
-        component: FontAwesome
-      }, {
-        path: 'simple-line-icons',
-        name: 'Simple Line Icons',
-        component: SimpleLineIcons
-      }]
-    }, {
-      path: 'notifications',
-      redirect: '/notifications/alerts',
-      name: 'Notifications',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
-      },
-      children: [{
-        path: 'alerts',
-        name: 'Alerts',
-        component: Alerts
-      }, {
-        path: 'badges',
-        name: 'Badges',
-        component: Badges
-      }, {
-        path: 'modals',
-        name: 'Modals',
-        component: Modals
-      }]
+      component: PangkatGolonganEntry
     }]
   }, {
     path: '/pages',
@@ -79415,7 +79128,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","/Users/macbook/developme
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_containers_DefaultContainer_vue":1,"resources_js_views_Dashboard_vue":1,"resources_js_views_theme_Colors_vue":1,"resources_js_views_theme_Typography_vue":1,"resources_js_views_Charts_vue":1,"resources_js_views_Widgets_vue":1,"resources_js_views_base_Cards_vue":1,"resources_js_views_base_Forms_vue":1,"resources_js_views_base_Switches_vue":1,"resources_js_views_base_Tables_vue":1,"resources_js_views_base_Tabs_vue":1,"resources_js_views_base_Breadcrumbs_vue":1,"resources_js_views_base_Carousels_vue":1,"resources_js_views_base_Collapses_vue":1,"resources_js_views_base_Jumbotrons_vue":1,"resources_js_views_base_ListGroups_vue":1,"resources_js_views_base_Navs_vue":1,"resources_js_views_base_Navbars_vue":1,"resources_js_views_base_Paginations_vue":1,"resources_js_views_base_Popovers_vue":1,"resources_js_views_base_ProgressBars_vue":1,"resources_js_views_base_Tooltips_vue":1,"resources_js_views_buttons_StandardButtons_vue":1,"resources_js_views_buttons_ButtonGroups_vue":1,"resources_js_views_buttons_Dropdowns_vue":1,"resources_js_views_buttons_BrandButtons_vue":1,"resources_js_views_icons_Flags_vue":1,"resources_js_views_icons_FontAwesome_vue":1,"resources_js_views_icons_SimpleLineIcons_vue":1,"resources_js_views_icons_CoreUIIcons_vue":1,"resources_js_views_notifications_Alerts_vue":1,"resources_js_views_notifications_Badges_vue":1,"resources_js_views_notifications_Modals_vue":1,"resources_js_views_pages_Page404_vue":1,"resources_js_views_pages_Page500_vue":1,"resources_js_views_pages_Login_vue":1,"resources_js_views_pages_Register_vue":1,"resources_js_views_users_Users_vue":1,"resources_js_views_users_User_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_containers_DefaultContainer_vue":1,"resources_js_views_pages_datapegawai_Index_vue":1,"resources_js_views_pages_datapegawai_Entry_vue":1,"resources_js_views_pages_pangkat_Index_vue":1,"resources_js_views_pages_pangkat_Entry_vue":1,"resources_js_views_pages_Page404_vue":1,"resources_js_views_pages_Page500_vue":1,"resources_js_views_pages_Login_vue":1,"resources_js_views_pages_Register_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
